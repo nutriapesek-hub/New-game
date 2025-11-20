@@ -1,0 +1,23 @@
+body {
+    background-color: #282c34; /* Latar belakang gelap */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.clock-container {
+    padding: 30px 60px;
+    background-color: #3a404c;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+#digital-clock {
+    font-size: 5rem;
+    color: #61dafb; /* Warna biru muda terang */
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px rgba(97, 218, 251, 0.7);
+}
